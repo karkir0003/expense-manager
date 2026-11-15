@@ -6,14 +6,6 @@ Welcome to the **Expense Manager** design round!
 
 Expense Manager is an enterprise expense submission, policy evaluation, approval routing, and accounting ledger system.
 
-The core system is structured into domain packages:
-- **`employees`**: Employee reporting hierarchy and department tree traversal.
-- **`currency`**: Normalized multi-currency money representation and FX conversion rates.
-- **`policies`**: Configurable, prioritized policy rules (Auto-Approve, Require Approval, Reject) evaluated by category, department, role, and spending thresholds.
-- **`routing`**: Approval routing generation based on management hierarchy and finance sign-offs.
-- **`ledger`**: Finalized transaction posting categorized into Capital Expenditures (CapEx) vs Operating Expenditures (OpEx).
-- **`expenses`**: End-to-end orchestration of submission, policy evaluation, approval workflows, and ledger posting.
-
 ---
 
 ### Quick Start Instructions
